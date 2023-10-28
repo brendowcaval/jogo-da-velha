@@ -1,18 +1,20 @@
-## Getting Started
+## Jogo da Velha no Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
+- Neste projeto pessoal, resolvi desenvolver o clássico jogo da velha para praticar meus conhecimentos
+na linguagem Java. Primeiramente, a lógica do game é basicamente um usuário fazer uma sequência de 
+peças iguais perante ao seu oponente, para vencer. Assim sendo, apliquei toda a lógica como possivel
+sequência por linhas, colunas e também nas diagonais.
 
-The workspace contains two folders by default, where:
+- Para praticar meus aprendizados na linguagem Java, resolvi aplicar Tratamento de Exceções, então
+caso o usuário possa entrar com dados diferente daquele que é permitido para selecionar uma peça
+num determinado lugar, a exceção é tratada, deixando o fluxo do código melhor.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Neste game, é necessário a presença de 2 usuários para jogar, e a cada vitória de determinado usuário, um
+ponto é acrescentado, e caso dê empate, não há acréscimo de pontos.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Captura de tela do código está abaixo :
+  
+![Captura de tela do terminal do VSCODE com o projeto Jogo da velha](https://github.com/brendowcaval/jogo-da-velha/blob/main/img/projeto-jogo-da-velha.png)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
